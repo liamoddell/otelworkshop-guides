@@ -116,7 +116,7 @@ The Java agent automatically instruments your application without code changes. 
    export OTEL_RESOURCE_ATTRIBUTES="service.name=rolldice,service.namespace=your-name-here,service.instance.id=${HOSTNAME},deployment.environment=workshop"
    ```
 
-   **Important**: Replace `your-name-here` with your unique namespace (e.g., your name). The `service.namespace` must be unique for each student to avoid collisions in Grafana Cloud.
+   **Important**: Replace `your-name-here` with your unique namespace (e.g., your name). The `service.namespace` must be unique for each user to avoid collisions in Grafana Cloud.
 
    **Example**:
    ```bash

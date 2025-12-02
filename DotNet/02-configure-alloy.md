@@ -10,6 +10,17 @@ Grafana Alloy is an OpenTelemetry collector that receives telemetry from your ap
    - OTLP Endpoint (e.g., `https://otlp-gateway-prod-XX-XXX.grafana.net/otlp`)
    - Instance ID
    - API Token
+  
+   - As part of this workshop, your facilitator will showcase how to find these credentials. The basic steps will be:
+     1. Head to Application Observability
+     2. Click 'Connect Data'
+     3. OpenTelemetry (OTLP)
+     4. OpenTelemetry SDK
+     5. Other
+     6. Kubernetes
+     7. OTel Collector
+     8. Add your token name
+     9. Scroll down to find the Endpoint, ID and generated API Token.
 
 2. **Edit the Alloy run script with your credentials:**
    ```bash
